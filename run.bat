@@ -1,0 +1,1 @@
+python -m pytest -s -v C:\Users\svpra\OneDrive\Desktop\Git_projects\git_pytest_project\test_cases -m "regression"

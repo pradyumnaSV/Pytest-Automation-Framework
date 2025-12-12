@@ -1,0 +1,13 @@
+# Core Automation Libraries
+selenium
+webdriver-manager
+# Testing Framework & Plugins
+pytest == 5.4.3
+pytest-html
+pytest-xdist
+openpyxl
+# Reporting Tools
+allure-pytest
+
+# Utility Libraries
+requests

@@ -1,0 +1,34 @@
+# --- User Specific Requests ---
+reports/
+screenshots/
+
+# --- Virtual Environment (CRITICAL) ---
+# Based on your previous git status, this is your venv folder
+gitpytestenv/
+venv/
+env/
+.env
+
+# --- Python & Cache Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Pytest Internal Cache ---
+.pytest_cache/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Allure Reporting (Since you have allure-pytest installed) ---
+allure-report/
+allure-results/
+
+# --- IDE Settings (Optional but recommended) ---
+.vscode/
+.idea/
+
+# --- Explicitly Track Test Data ---
+# (Git tracks folders by default, so this just ensures we don't accidentally ignore it)
+!test_data/
